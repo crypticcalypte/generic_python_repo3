@@ -1,1 +1,4 @@
-testing adding a readme to pycharm (it can sometimes crash with it. apparently.)
+=== cy r's repo ===
+
+- this'll go private as soon as the quarter ends
+- for loose files that only need 1-2 files for an entire project
