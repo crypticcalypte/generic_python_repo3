@@ -13,7 +13,7 @@
 
 # ----------------------------
 
-program = input("Enter 'pizza' to see the pizza problem, or 'coffee' to see the coffee problem. ")
+program = input("Enter 'pizza' to see the pizza problem (#2), 'coffee' to see the coffee problem (#4), or 'thermostat' to see the thermometer problem (#6). ")
 
 if program == "pizza":
     total_miles = int(input("Distance in miles: "))
@@ -53,3 +53,23 @@ elif program == "coffee":
         coffee_price = coffee_price
 
     print(f"Total price is: ${coffee_price}.")
+
+elif program == "thermostat":
+    # ------------ one more. for good measure ------------
+
+    temp = int(input("What's the temperature?: "))
+
+    if temp < 32:
+        print("Freezing - pipes may burst!")
+    elif 32 <= temp <= 50:
+        print("Very cold")
+    elif 51 <= temp <= 65:
+        print("Cool")
+    elif 66 <= temp <= 75:
+        print("Comfortable")
+    elif 76 <= temp <= 85:
+        print("Warm")
+    elif 86 <= temp <= 95:
+        print("Hot")
+    elif 95 < temp:
+        print("Extreme heat - stay hydrated!")
