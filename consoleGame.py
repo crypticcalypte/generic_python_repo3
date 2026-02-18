@@ -12,8 +12,24 @@ layout = f"-----------\n-----------\n-----------\n-----+-----\n"
 player = {
     "name": "input",
     "loc": 4.6,
-    "in_church": True
+    "in_church": False
 }
+
+#### ignore thisS
+# stroke = int(input())
+# par = int(input())
+
+# if int(stroke) == (int(par) - 2):
+#    print(f"Par {par} in {stroke} strokes is Eagle")
+# elif int(stroke) == (int(par) - 1):
+#    print(f"Par {par} in {stroke} strokes is Birdie")
+#elif int(stroke) == int(par):
+#    print(f"Par {par} in {stroke} strokes is Par")
+#elif (int(par) + 1) == int(stroke):
+#    print(f"Par {par} in {stroke} strokes is Bogey")
+#else:
+#    print(f"Par {par} in {stroke} strokes is Error")
+
 
 while player["in_church"] != False:
     print("while loop is working!")
